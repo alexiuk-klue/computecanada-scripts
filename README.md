@@ -43,7 +43,7 @@ IQ-TREE: iqtree_LG_C60_F_G4.sh
 
 PhyloBayes: pbmpi_CAT_GTR_G4_chain1.sh
 
-MrBayes:
+MrBayes: mb_NT_GTR_I_G4.sh
 
 SPAdes:
 
