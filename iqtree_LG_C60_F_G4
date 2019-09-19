@@ -1,0 +1,14 @@
+#!/bin/bash
+#SBATCH --account=def-keeling
+#SBATCH --time=14-00:00
+#SBATCH --job-name=iqtree_LG_C60_F_G4
+#SBATCH --cpus-per-task=32
+#SBATCH --mem=515000M
+#SBATCH --mail-user=filip.husnik@gmail.com
+#SBATCH --mail-type=BEGIN,END,FAIL,REQUEUE
+
+module load nixpkgs/16.09
+module load gcc/7.3.0
+module load iq-tree/1.6.12
+
+iqtree -s alignment.phy -bb 1000 -nt 32 -m LG+C60+F+G4 -bnni -wsr
