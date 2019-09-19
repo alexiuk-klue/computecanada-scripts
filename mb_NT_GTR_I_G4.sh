@@ -1,7 +1,7 @@
 #!/bin/bash
 #SBATCH --account=def-keeling
 #SBATCH --time=14-00:00
-#SBATCH --job-name=mb_GTR_I_G4
+#SBATCH --job-name=mb_NT_GTR_I_G4
 #SBATCH --cpus-per-task=32
 #SBATCH --mem=128000M
 #SBATCH --mail-user=filip.husnik@gmail.com
