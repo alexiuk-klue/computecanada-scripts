@@ -32,7 +32,7 @@ More info on how to run jobs: [https://docs.computecanada.ca/wiki/Running_jobs].
 
 Available software:  [https://docs.computecanada.ca/wiki/Available_software].
 
-Available computational resource (Cedar): [https://docs.computecanada.ca/wiki/Cedar].
+Available computational resources (Cedar): [https://docs.computecanada.ca/wiki/Cedar].
 
 Job scheduling policies: [https://docs.computecanada.ca/wiki/Job_scheduling_policies].
 
@@ -45,7 +45,7 @@ PhyloBayes: pbmpi_CAT_GTR_G4_chain1.sh
 
 MrBayes: mb_NT_GTR_I_G4.sh
 
-SPAdes:
+metaSPAdes: metaSPAdes.sh
 
 Bowtie2:
 
